@@ -1,0 +1,12 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0; /* 完全に透明 */
+    }
+    to {
+      opacity: 1; /* 完全に表示 */
+    }
+  }
+  
+#animation {
+    animation: fadeIn 2s forwards;
+}
